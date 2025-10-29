@@ -1,3 +1,31 @@
 body {
   background-color: rebeccapurple;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.4s ease;
+}
