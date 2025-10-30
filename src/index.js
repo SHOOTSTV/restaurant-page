@@ -1,5 +1,7 @@
+import { loadContact } from "./contact";
 import { loadHome } from "./home";
 import { loadMenu } from "./menu";
+
 import "./style.css";
 
 loadHome();
@@ -12,4 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.getElementById("menu-button").addEventListener("click", () => {
   loadMenu();
+});
+
+document.getElementById("contact-button").addEventListener("click", () => {
+  loadContact();
 });
